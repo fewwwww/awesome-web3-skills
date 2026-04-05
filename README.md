@@ -301,6 +301,21 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+### [Hashgraph Online (HOL)](https://hol.org)
+> The trust engine for the agentic internet — universal agent registry on Hedera providing blockchain-based identity, trustless P2P communication, and cross-protocol bridging for Web3 AI agents.
+
+**Modules / Capabilities:**
+- `HCS-14 UAIDs` — Universal Agent IDs with self-describing routing and structured skills encoding
+- `HCS-10 P2P` — Server-blind encrypted agent-to-agent messaging (ECDH + AES-GCM)
+- `Cross-Protocol Bridges` — A2A, MCP, x402, ERC-8004, NANDA, Virtuals interoperability
+- `Registry Broker` — Universal index aggregating agent metadata from multiple registries
+- `Standards SDK` — TypeScript, Go, and Python SDKs for building on HCS specs (HCS-1 through HCS-20)
+
+**Access:** Open-source (Apache-2.0) · npm · PyPI · Go module · [Registry](https://hol.org/registry)
+**Works with:** A2A, MCP, OpenClaw, Claude Code, Codex CLI
+
+---
+
 ## Contributing
 
 PRs welcome! Please follow this format:
