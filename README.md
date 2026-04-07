@@ -301,6 +301,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+
+### Marketplaces
+
+#### [RemoteOpenClaw](https://remoteopenclaw.com)
+> Open marketplace for AI skills and personas built on OpenClaw.
+
+**Modules / Capabilities:**
+- `Discover` — browse and search community-built AI agent skills and personas
+- `Share` — publish and distribute your own AI skills
+- `Marketplace` — buy and sell premium AI capabilities
+
+**Access:** Web platform
+**Works with:** OpenClaw, Claude Code, Codex CLI
 ## Contributing
 
 PRs welcome! Please follow this format:
