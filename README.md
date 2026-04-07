@@ -14,6 +14,7 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
   - [Bridges & Cross-chain](#bridges--cross-chain)
   - [MCP Servers & On-Chain Data](#mcp-servers--on-chain-data)
   - [Security & Risk](#security--risk)
+  - [Prediction Markets](#prediction-markets)
 - [CeFi Skills](#cefi-skills)
 - [Agent Frameworks](#agent-frameworks)
 
@@ -195,8 +196,26 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 - `Malicious Fund Detection` — USDT blacklist, stolen funds check
 - `Chain Detection` — auto-detect blockchain from address
 
-**Access:** MCP (official) · API key required  
+**Access:** MCP (official) · API key required
 **Works with:** Claude, Cursor
+
+---
+
+### Prediction Markets
+
+#### [TBD](https://www.tbd.vote)
+> Solana-based prediction market for human opinions — wager on what people think and believe rather than purely objective event outcomes.
+
+**Modules / Capabilities:**
+- `Authentication` — `tbd-vote login` with API key
+- `Campaigns` — `tbd-vote campaigns list --json` to browse open opinion polls with options and odds
+- `Bet Placement` — `tbd-vote bet <campaign-id> <option-id>` for on-chain Solana wagers
+- `Bet History` — `tbd-vote bets list` and `tbd-vote bets stats` for active/settled positions and aggregate P&L
+- `Autonomous Loop` — documented polling and resolution pattern in the [AGENTS.md spec](https://www.tbd.vote/agents/AGENTS.md)
+- `HTTP Fallback` — raw REST endpoints if the CLI is unavailable
+
+**Access:** [AGENTS.md](https://www.tbd.vote/agents/AGENTS.md) · [@tbd-vote/cli](https://www.npmjs.com/package/@tbd-vote/cli) (npm) · [SKILL.md](https://github.com/ego-protocol/tbd-vote-cli/blob/main/SKILL.md) (Claude Code)
+**Works with:** Claude Code, Cursor, Codex CLI, any agent that reads AGENTS.md
 
 ---
 
