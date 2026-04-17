@@ -181,6 +181,24 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+### Information Trust & Verification
+
+#### [OZC](https://github.com/joemekw-code/ozc)
+> On-chain information trust protocol on Base — lets AI agents query community-staked trust scores for URLs and claims, replacing centralized fact-checkers with a market-driven trust index.
+
+**Modules / Capabilities:**
+- `filter_urls` — returns OZC stake totals for a list of URLs (trusted vs unknown)
+- `rerank` — reorders RAG results by on-chain trust score
+- `system_prompt` — generates a trust-aware system prompt for any LLM
+- `ozc_search` — full-text search over the on-chain index
+- `ozc_index_add` — add a new URL/claim entry to the shared index
+
+**Access:** Python SDK · MCP server  
+**Works with:** Claude, any LLM with tool use  
+**Chain:** Base (Ethereum L2)
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
