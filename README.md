@@ -181,6 +181,23 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [Hive Intelligence](https://github.com/hive-intel/hive-crypto-mcp)
+> Institutional-grade crypto market infrastructure for AI — one endpoint, hundreds of normalized tools across 14 category-scoped MCP servers covering live prices, DeFi activity, wallet positions, and token risk on every major chain.
+
+**Modules / Capabilities:**
+- `Market Data` — live prices, OHLCV, volume, exchange tickers across 20+ venues
+- `On-Chain DEX` — pool analytics, token trades, OHLCV, DEX volumes by chain
+- `DeFi` — protocol TVL, yields, stablecoin tracking across chains
+- `Wallet` — DeFi positions, NFTs, transactions, balances (single- or all-chain)
+- `Token Risk` — rug checks, holder distribution, contract risk signals
+- `Derivatives` — funding rates, open interest, liquidations, options data
+- `News & Sentiment` — curated crypto news, sentiment, trending tokens
+
+**Access:** MCP (official) · REST API · CLI  
+**Works with:** Claude Desktop, Claude Code, Cursor, ChatGPT Desktop, Windsurf, VS Code (GitHub Copilot Chat), Gemini CLI, and any MCP-compatible client
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
