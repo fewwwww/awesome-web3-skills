@@ -181,6 +181,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [web3-discover MCP](https://web3-discover.vercel.app/api/mcp)
+> Hand-vetted directory of currently-claimable web3 airdrops exposed over MCP — agents can list opportunities, fetch action steps, and check personalised eligibility per wallet.
+
+**Modules / Capabilities:**
+- `list_airdrops` — list 42 currently-active airdrops with chain, cost-floor, risk flag, deadline
+- `get_airdrop` — fetch full entry (action steps, "last verified" date, sell-side links)
+- `search_airdrops` — filter by chain, risk, effort, free-to-enter
+- `check_eligibility` — paste a wallet, get a personalised verdict across 14 hand-verified on-chain rules
+
+**Access:** MCP (JSON-RPC 2.0 over HTTP) · REST API · CC0 data mirror at [SolvoHQ/web3-discover-data](https://github.com/SolvoHQ/web3-discover-data)
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
