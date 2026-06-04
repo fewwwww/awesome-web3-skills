@@ -140,6 +140,20 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ### MCP Servers & On-Chain Data
 
+#### [CTRL](https://github.com/CTRLabs/ctrl-mcp)
+> Visual DeFi workflow automation MCP for Base + Ethereum mainnet — compose triggers and actions on a canvas, sign once via EIP-5792, an 8-wallet keeper executes from vault-direct V13 smart contracts forever under per-swap and per-day caps the user signed.
+
+**Modules / Capabilities:**
+- `Triggers` — `time.interval`, `time.cron`, `price.above/below/change`, `pool.created` (Clanker / Flaunch / Zora / BANKR), `watch.whale`, `event.transfer`, `event.balance`
+- `Actions` — `cypher.swap` (Uniswap V4 + Aerodrome routing), `read.balance`, `notify.telegram`, `notify.discord`, `util.webhook`
+- `Conditions` — `cond.price`, `cond.balance`, `cond.allowed_weekdays`, `cond.time_window`
+- `Activate` — `ctrl_activate` returns an EIP-5792 `transactions[]` batch the user signs once to deploy the vault and register spending rules
+- `Logs` — keeper execution history with Basescan / Etherscan tx hashes, gas, status
+
+**Access:** Streamable MCP (`https://ctrl.build/api/mcp`) · REST API (anonymous-friendly) · Claude skill ([ctrl-skill](https://github.com/CTRLabs/ctrl-skill))
+
+---
+
 #### [CoinGecko MCP](https://docs.coingecko.com/docs/mcp-server)
 > Official CoinGecko MCP server — comprehensive crypto market data across 200+ blockchains and 8M+ tokens.
 
