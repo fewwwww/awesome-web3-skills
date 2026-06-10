@@ -181,6 +181,16 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [The Stall MCP](https://the-stall.intuitek.ai)
+> 201 pay-per-call x402 MCP capabilities for AI agents — on-chain analytics, DeFi intelligence, wallet screening, and more. No API keys needed. Agents pay per call via USDC on Base.
+
+**Key modules:**
+- `wallet-balance`, `wallet-screener`, `wallet-credit-score` — wallet intelligence & risk scoring
+- `erc20-snapshot`, `token-top-holders`, `evm-log-events` — on-chain token analytics
+- `defi-yields`, `defi-state-pack`, `defillama-protocol` — DeFi protocol intelligence
+- `sanctions-screening`, `address-security`, `solana-token-risk` — security & risk
+- `tx-explainer`, `tx-intel`, `dex-pair-search` — transaction & DEX analytics
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
