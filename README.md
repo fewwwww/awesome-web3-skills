@@ -181,6 +181,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [Superhighway](https://superhighway.walls.sh/guides/crypto-research-agent)
+> Pay-per-call web search for AI agents — powers a Python [Cryptocurrency & DeFi Research Agent](https://superhighway.walls.sh/guides/crypto-research-agent) that synthesizes live market data, on-chain metrics, tokenomics, and recent developments into structured JSON briefings.
+
+**Modules / Capabilities:**
+- `Research` — deep multi-source synthesis on a token or protocol
+- `Search` — live market data + on-chain metrics (TVL, revenue, volume)
+- `Scrape` — extract CoinGecko / DeFiLlama pages
+- `News` — recent developments and catalysts
+
+**Access:** MCP (`npx -y superhighway-mcp`) · REST API · x402 (USDC, no signup)
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
