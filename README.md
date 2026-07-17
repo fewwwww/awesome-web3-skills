@@ -301,6 +301,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+### [ValuePacket](https://github.com/KryptosAI/ValuePacket)
+> Permissionless payment protocol for autonomous AI agents. EIP-712 payment channels for agent-to-agent micropayments across any framework.
+
+**Modules / Capabilities:**
+- `Payment Channels` — EIP-712 based off-chain micropayment channels for agent-to-agent transactions
+- `ElizaOS Adapter` — native integration with ElizaOS agent framework
+- `G.A.M.E Adapter` — Virtuals G.A.M.E framework integration
+- `Base Sepolia` — verified smart contracts on Base Sepolia testnet
+
+**Access:** Open-source (MIT) · npm · Smart contracts on Base Sepolia
+
+---
+
 ## Contributing
 
 PRs welcome! Please follow this format:
