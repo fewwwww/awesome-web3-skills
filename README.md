@@ -125,6 +125,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [Formo](https://formo.so)
+> Official hosted MCP for read-only product and onchain analytics across web3 applications.
+
+**Modules / Capabilities:**
+- `Product Analytics` — KPIs, events, pages, acquisition, lifecycle, retention, and funnels
+- `Onchain Analytics` — top wallets, chains, revenue, volume, and wallet enrichment
+- `SQL` — project-scoped natural-language-to-SQL and read-only query execution
+- `Documentation` — search Formo's product and API documentation
+
+**Access:** MCP (official) · OAuth or Workspace API key · [Docs](https://docs.formo.so/mcp/overview)
+
+---
+
 #### [Wormhole](https://docs.wormhole.com)
 > Cross-chain messaging and asset bridging infrastructure connecting 30+ blockchains.
 
