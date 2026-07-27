@@ -231,6 +231,23 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+### [Eterna MCP](https://github.com/EternaHybridExchange/eterna-mcp)
+> Managed no-KYC MCP gateway for perpetual futures — agents self-register over HTTP, get an isolated sub-account and API key instantly, and trade with built-in risk guardrails.
+
+**Modules / Capabilities:**
+- `Registration` — `register_agent` provisions a dedicated sub-account and Argon2-hashed API key, no pre-existing exchange account
+- `Market Data` — tickers with funding rates, instrument specs, live order book
+- `Account` — balance and margin usage, open positions with PnL, order history
+- `Trading` — market/limit orders with TP/SL, position close, leverage caps and position limits enforced server-side
+- `Funding` — deposit addresses per coin/chain, deposit records, funding-to-trading transfers
+- `Code Execution` — sandboxed Deno runtime for TypeScript strategies against the `bybit.*` SDK, with `search_sdk` / `search_examples` discovery
+- `Prompts & Resources` — `trading_guide`, `momentum_scalping_strategy`, `eterna://risk-rules`
+
+**Access:** MCP (official, streamable HTTP at `https://mcp.eterna.exchange/mcp`) · AI Skills  
+**Works with:** Claude Code, Claude Desktop, Cursor, OpenClaw, LangChain, AutoGen, CrewAI
+
+---
+
 ### [BingX](https://bingx.com/en/developer/)
 > BingX exchange API integration for AI agents, supporting spot and perpetual contract trading.
 
