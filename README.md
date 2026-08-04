@@ -181,6 +181,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [OpenChainBench MCP](https://openchainbench.com/mcp)
+> Open-source crypto infrastructure benchmark MCP server. Live RPC latency across 22+ EVM chains + Solana, bridge fees, perp DEX funding rates, prediction market data. Streamable HTTP, no auth, CC BY 4.0.
+
+**Modules / Capabilities:**
+- `RPC Latency` — live latency benchmarks across 22+ EVM chains and Solana
+- `Bridge Fees` — real-time cross-chain bridge cost data
+- `Perp DEX Funding Rates` — live funding rate data for perpetual DEX markets
+- `Prediction Markets` — prediction market data and metrics
+
+**Access:** MCP (streamable HTTP) · No auth required · CC BY 4.0
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
@@ -319,3 +332,4 @@ PRs welcome! Please follow this format:
 ## License
 
 MIT
+
