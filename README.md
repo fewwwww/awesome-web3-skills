@@ -200,6 +200,20 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [MandateGuard MCP](https://github.com/ezequiellich44-cmd/MandateGuard)
+> Deterministic payment policy enforcement for AI agents: pre-action gate enforcing budgets, allowlists, denylists, rate limits, and signed Ed25519 payment mandates with zero LLM in the decision path (reproducible verdicts). Tamper-evident SHA-256 chained audit ledger.
+
+**Modules / Capabilities:**
+- `Payment Mandates` – signed Ed25519 spending authorizations per agent action
+- `Budget & Rate Limits` – deterministic pre-action enforcement
+- `Allowlist/Denylist` – tool, recipient, and token spend policies
+- `Audit Ledger` – tamper-evident SHA-256 chained records
+
+**Access:** MCP (official) – listed on the Model Context Protocol Registry  
+**Works with:** Claude, Cursor, any MCP client
+
+---
+
 ## CeFi Skills
 
 ### [Binance Skills Hub](https://github.com/binance/binance-skills-hub)
