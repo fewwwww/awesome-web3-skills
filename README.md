@@ -12,6 +12,7 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 - [Onchain Skills](#onchain-skills)
   - [DEX & Aggregators](#dex--aggregators)
   - [Bridges & Cross-chain](#bridges--cross-chain)
+  - [Offramp & Fiat](#offramp--fiat)
   - [MCP Servers & On-Chain Data](#mcp-servers--on-chain-data)
   - [Security & Risk](#security--risk)
 - [CeFi Skills](#cefi-skills)
@@ -137,6 +138,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 **Access:** MCP (community) · SDK · REST API
 
 ---
+
+
+### Offramp & Fiat
+
+#### [USDCtoFiat](https://github.com/ADWilkinson/usdctofiat-skills)
+> One-call non-custodial USDC-to-fiat cashout on Base for coding agents.
+
+**Modules / Capabilities:**
+- `cashout` — `cashout({ mode: "fast" | "best" })` via `@usdctofiat/offramp` 9.x. Fast is 0 bps; Best is 10 bps Delegate.
+- `Rails` — Revolut, Monzo, Chime, Zelle direct. Venmo, Cash App, Wise, PayPal after one-time Verify.
+
+**Access:** AI Skill (`npm exec --package=skills@1.5.23 -- skills add ADWilkinson/usdctofiat-skills --skill cashout`) · npm `@usdctofiat/offramp` · hosted https://usdctofiat.xyz/skills/usdctofiat.md  
+**Works with:** Claude Code, Cursor, Codex CLI
 
 ### MCP Servers & On-Chain Data
 
