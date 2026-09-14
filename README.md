@@ -181,6 +181,21 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [Sato Hub MCP](https://satohub.ai/mcp)
+> Remote MCP over a daily-rebuilt index of 380+ onchain-agent tools — frameworks, MCP servers, wallets, x402 rails — each scored 0-100 for how open, active and verifiable it is.
+
+**Modules / Capabilities:**
+- `Search` — find tools by category, chain, standard, or integration
+- `Sato Score` — 0-100 openness/activity/verifiability score with its components and evidence
+- `Stack` — turn a build goal in plain words into a candidate stack
+- `Agent Economy` — weekly venue measurements per chain and stage, nulls kept as unknown
+- `Changes` — daily feed of what was added, updated, or retired
+
+**Access:** MCP (Streamable HTTP, no API key) · REST exports (CC-BY)  
+**Works with:** Claude Code, Cursor, Codex CLI, OpenClaw
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
