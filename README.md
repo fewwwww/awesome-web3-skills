@@ -200,6 +200,20 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [HostDeFi](https://hostdefi.com)
+> Free multi-chain token risk scanner and agent API — instant on-chain safety grades for token contracts across 7 EVM chains and Solana.
+
+**Modules / Capabilities:**
+- `Token Risk Grades` — instant safety score for any token contract
+- `Authority Checks` — mint/freeze authority detection
+- `Liquidity & Holders` — liquidity depth and holder-concentration analysis
+- `Honeypot Detection` — buy/sell simulation checks
+- `Chain Coverage` — Solana plus Ethereum, Base, Arbitrum, BSC, Polygon, Optimism, Avalanche
+
+**Access:** MCP (hosted: https://hostdefi.com/api/v1/mcp) · REST API · x402 machine-payable API
+
+---
+
 ## CeFi Skills
 
 ### [Binance Skills Hub](https://github.com/binance/binance-skills-hub)
