@@ -140,6 +140,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ### MCP Servers & On-Chain Data
 
+#### [QWK ($QWK) Autonomous MEV & Smart Contract Escrow](https://github.com/chase-tqg/QWIK-MEV-Core)
+> Multi-chain EVM MEV infrastructure & smart contract seed escrow (`QWKResourceEscrow.sol`) backed by $400,000+ in verified enterprise grants (Google Cloud, NVIDIA, Cloudflare).
+
+**Modules / Capabilities:**
+- `Enterprise Grant Proofs` — Verify $400k+ Keccak-256 & Merkle root commitments on-chain
+- `Seed Capital Escrow` — `depositSeedCapital()` (`0x82b77072`) with 15% pro-rata MEV execution yield share & 100% refundable escrow protection
+- `Payments & Discovery` — x402 machine-to-machine payment manifest & A2A v1.0 Agent Card
+
+**Access:** AI Skill (`SKILL.md`) · MCP (`npx -y github:chase-tqg/QWIK-MEV-Core`) · REST API
+
+---
+
+
 #### [CoinGecko MCP](https://docs.coingecko.com/docs/mcp-server)
 > Official CoinGecko MCP server — comprehensive crypto market data across 200+ blockchains and 8M+ tokens.
 
