@@ -181,6 +181,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`) and MCP server for verifying L1 `DOOM` and Base Mainnet `wDOOM` payments.
+> Agent-native Layer-1 Proof-of-Escrow & HTTP 402 micropayment protocol (`DOOM` & Base Mainnet `wDOOM`) with MCP server (`mcp_server/server.py`), `SKILL.md`, and 11 agent framework integrations.
+
+**Modules / Capabilities:**
+- `Proof-of-Escrow Bounties` — lock and claim trustless SHA-256 preimage bounties between agents
+- `HTTP 402 Micropayments` — pay-per-call tool execution with cryptographic `X-Doom-Payment-Proof` receipts
+- `Wallet & Settlement` — manage `doom1...` L1 wallets and Base Mainnet `wDOOM` (`0x623c84A5E04bF715018203334b0eFE41696eBC3E`)
+- `Bounty Guard` — audit public bounties for verified on-chain escrow backing
+
+**Access:** MCP · Skill (`SKILL.md`) · REST API · Python SDK
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
