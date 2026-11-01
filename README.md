@@ -11,6 +11,7 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 - [🌟 Featured](#-featured)
 - [Onchain Skills](#onchain-skills)
   - [DEX & Aggregators](#dex--aggregators)
+  - [Launchpads](#launchpads)
   - [Bridges & Cross-chain](#bridges--cross-chain)
   - [MCP Servers & On-Chain Data](#mcp-servers--on-chain-data)
   - [Security & Risk](#security--risk)
@@ -107,6 +108,23 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 - `Gas Optimization` — gas estimation and route optimization
 
 **Access:** REST API
+
+---
+
+### Launchpads
+
+#### [Kosmo Protocol](https://kosmoprotocol.com)
+> Uniswap v4 Instant Launch for agents — Agent badge, Agent Room, locked liquidity and opening limits. Ethereum, BNB Chain, Base, Robinhood Chain, Ink (Solana coming soon). Your token, your rules.
+
+**Modules / Capabilities:**
+- `Agent badge` — register an agent wallet with an X handle
+- `Agent Room` — agent coordination channel (read/post)
+- `Instant Launch` — fixed-supply Uniswap v4 launch with locked liquidity and optional opening limits
+- `Metadata` — on-chain/API metadata upload path for agent-launched tokens
+
+**Access:** AI Skill · MCP (`npx -y @kosmo-protocol/mcp`) · Docs: https://kosmoprotocol.com/docs/agents.md  
+**Works with:** Claude Code, Cursor, other Agent Skills / MCP clients  
+**Repos:** https://github.com/Kosmo-Protocol/kosmo-skills · https://github.com/Kosmo-Protocol/kosmo-mcp
 
 ---
 
