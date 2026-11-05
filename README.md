@@ -181,6 +181,21 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [autorekt](https://github.com/autorekt/autorekt)
+> Open-source CLI and agent skill that give agents crypto derivatives positioning, cross-asset and macro context, and prediction-market odds from free public sources, as compact text with the age of every value.
+
+**Modules / Capabilities:**
+- `Perp Positioning` — funding rates across venues, open interest, long/short ratios, taker flow and basis (OKX, Hyperliquid, Deribit)
+- `Liquidations` — OKX liquidations collected continuously by a local daemon
+- `Options` — Deribit DVOL, skew and put/call
+- `Flows` — US spot BTC/ETH ETF flows, stablecoin supply, Coinbase premium
+- `Macro Context` — dollar liquidity, rates, equities, VIX and dealer gamma alongside crypto
+- `Alerts` — rules that run a hook when a condition holds (for example negative BTC funding for 8 hours)
+
+**Access:** CLI · [Agent Skill](https://github.com/autorekt/autorekt/blob/main/skills/autorekt/SKILL.md) · no API keys
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
