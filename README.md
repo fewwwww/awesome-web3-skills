@@ -189,7 +189,7 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 - `RPC Reads` — query EVM JSON-RPC through each chain's public or keyed endpoint
 - `Indexed Data` — query the Data API with your own BlockVectra API key
 
-**Access:** Official MCP (Streamable HTTP) · [Connection guide](https://docs.blockvectra.com/en/guides/ai-agents/?ref=awesome-web3-skills) · keyless RPC follows each chain's public method policy · API key required for indexed data and keyed RPC
+**Access:** Official MCP (Streamable HTTP). Use [`/mcp/docs`](https://docs.blockvectra.com/mcp/docs) for `search_docs` and `read_doc` without an account, API key or local install; use [`/mcp`](https://docs.blockvectra.com/mcp) for the full tools. Keyless RPC follows each chain's public method policy; indexed data and keyed RPC require an API key. [Connection guide](https://docs.blockvectra.com/en/guides/ai-agents/?ref=awesome-web3-skills).
 
 ---
 
