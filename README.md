@@ -198,6 +198,19 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 **Access:** MCP (official) · API key required  
 **Works with:** Claude, Cursor
 
+#### [Solana Rent & Rug Shield MCP](https://github.com/sonnyman2014/solana-rent-rug-shield-mcp)
+> Non-custodial Solana pre-buy 11-layer token security scanner, Block-0 Sybil detector, and read-only ATA rent auditor for autonomous AI agents.
+
+**Modules / Capabilities:**
+- `11-Layer Token Audit` — sub-120ms Mint/Freeze authority, LP burn, and liquidity solvency scoring
+- `Token-2022 Extension Scanner` — detects `PermanentDelegate`, malicious `TransferHook` CPIs, and hidden `TransferFeeConfig` taxes
+- `Block-0 Sybil Cluster Defense` — flags coordinated Jito launchpad wallet bundles disguising insider supply
+- `Inner-CPI Simulation` — pre-signing transaction simulation catching `SetAuthority` and account-drain instructions
+- `Read-Only ATA Rent Scanner` — audits zero-balance SPL and Token-2022 token accounts (`2,039,280` lamports per standard ATA)
+
+**Access:** MCP (`https://rentandrugshield.com/mcp`) · REST API · Solana `x402` (`@x402/svm`) · `llms.txt`  
+**Works with:** Claude Code, Cursor, Codex, Solana Agent Kit, GOAT SDK
+
 ---
 
 ## CeFi Skills
