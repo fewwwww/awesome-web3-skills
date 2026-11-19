@@ -181,6 +181,17 @@ Inspired by [awesome-uniswap-hooks](https://github.com/fewwwww/awesome-uniswap-h
 
 ---
 
+#### [StalkChain Data MCP](https://github.com/StalkChain/fomo-mcp-api)
+> Hosted MCP for researching public crypto wallets, tracked traders, and token activity.
+
+**Modules / Capabilities:**
+- `Wallet and Trader Research` — lookup of public wallets, holdings, and tracked-trader P&L
+- `Token Research` — tracked holders and recent buy and sell activity
+
+**Access:** [Remote MCP](https://stalkchain.com/mcp) via browser OAuth. Metered queries use account credits.
+
+---
+
 ### Security & Risk
 
 #### [SlowMist MistTrack MCP](https://github.com/slowmist/MistTrackMCP)
